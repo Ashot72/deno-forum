@@ -14,7 +14,7 @@ Deno to automatically restart the process when your code changes.
 
 I will show how to host our Deno app on Heorku, how to install Deno buildpack on
 Heroku and how to install ClearDB MySQL Database on Heroku and connect. The
-app's backend code is hosted on [Heroku](https://denoforums.herokuapp.com/) and
+app's backend code is hosted on [Heroku](https://www.heroku.com/platform) and
 you can test forums' REST API endpoint
 [here](https://denoforums.herokuapp.com/api/forums)
 
@@ -23,8 +23,9 @@ App's frontend is built with React Hooks and hosted on
 
 To get started for local development.
 
-Install [Deno](https://deno.land/) Install
-[MySQL Database](https://www.mysql.com)
+Install [Deno](https://deno.land/)
+
+Install [MySQL Database](https://www.mysql.com)
 
 ```
        You should downgrade Deno after the intallation.
@@ -48,5 +49,5 @@ Install [Deno](https://deno.land/) Install
 
 Go to [Deno Forum Video](https://youtu.be/YPhfLHlShHs) page
 
-Go to [Deno Forum description](https://github.com/Ashot72/Deno-Forum/index.html)
+Go to [Deno Forum description](https://ashot72.github.io/deno-forum/index.html)
 page
