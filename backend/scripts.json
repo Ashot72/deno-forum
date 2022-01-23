@@ -1,0 +1,19 @@
+{
+  "$schema": "https://deno.land/x/denon@2.4.9/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run --allow-net --allow-read  --allow-write --allow-env --unstable app.ts",
+      "desc": "run app.ts file",
+      "env": {
+        "SERVER_PORT": "8080",
+        "DB_NAME": "forums",
+        "DB_HOST": "localhost",
+        "DB_USER": "root",
+        "DB_PASS": "ash!1234",
+        "ENV": "dev",
+        "JWT_ACCESS_TOKEN_EXP": "3600000",
+        "JWT_REFRESH_TOKEN_EXP": "18000000"
+      }
+    }
+  }
+}

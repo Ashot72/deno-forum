@@ -1,0 +1,1553 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:14.0pt;line-height:107%'>Deno Forum</span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Video link: <a
+href="https://youtu.be/YPhfLHlShHs" target="_blank">https://youtu.be/YPhfLHlShHs</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Git
+Repository: <a href="https://github.com/Ashot72/Deno-Forum" target="_blank">https://github.com/Ashot72/Deno-Forum</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Hosted: <a
+href="https://denoforums.web.app/" target="_blank">https://denoforums.web.app/</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is very
+likely that Deno will become the new next-generation Node.js. While both Deno
+and Node.js have the same purpose, their working mechanisms differ.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Deno </span><a
+href="https://deno.land/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'>https://deno.land/</span></a><span style='font-size:14.0pt;
+line-height:107%'> is a simple, modern and secure runtime for JavaScript and
+TypeScript that uses V8 and is built in Rust.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
+style='font-size:14.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;line-height:107%'>Secure by
+default. No file, network, or environment access, unless explicitly enabled.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
+style='font-size:14.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;line-height:107%'>Supports
+TypeScript out of the box.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
+style='font-size:14.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;line-height:107%'>Ships only a
+single executable file.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
+style='font-size:14.0pt;line-height:107%;font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:14.0pt;line-height:107%'>Has built-in
+utilities like a dependency inspector (deno info) and a code formatter (deno
+fmt)</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1418 height=721 id="Picture 2"
+src="index_files/image001.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 1</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is Deno
+namespace API. These are core APIs, core features which are built into Deno and
+are available on the Deno object. They are globally available in any Deno code
+you are executing.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>There are
+core module working with files, requests etc.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1464 height=550 id="Picture 3"
+src="index_files/image002.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 2</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We also see core
+features like <i>set timeout</i>, <i>set interval</i> etc.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1436 height=421 id="Picture 4"
+src="index_files/image003.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 3</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We also have
+<i>fetch</i> API available for sending network requests. By the way, this is
+the difference compared to Node where things like the fetch API is not
+available in Node. Deno has the </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>core
+philosophy of being as browser compatible as possible. We can formulate it like
+this; It is basically what you can do in the browser minus features that only
+make sense in the browser,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>plus,
+features that cannot be used inside of the browser.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1151 height=616 id="Picture 5"
+src="index_files/image004.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 4</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+create file.ts file in visual studio. We have .ts extneison as Deno supports
+TypeScript out of the box. You see that Visual Studio code does not understand
+Deno global object. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>For that
+reason, you search Deno extension that you can install and it will bring Deno
+support to Visual Studio code. Once you installed you will see that on Deno
+object </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>you get all
+the completion.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1095 height=634 id="Picture 6"
+src="index_files/image005.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 5</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We should
+install<i> language server client for Deno.</i> </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1198 height=652 id="Picture 7"
+src="index_files/image006.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 6</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Once you
+installed it, do CTRL+Shift+P and run <i>Deno: Initialize Workspace
+Configuration</i></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1013 height=595 id="Picture 8"
+src="index_files/image007.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 7</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After the
+initialization, Deno global object gets all the completion.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1116 height=631 id="Picture 9"
+src="index_files/image008.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 8</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We use <i>Deno.writeFile</i>
+to write data into the file. After running <i>deno run file.ts </i>command we
+get PersmissionDenied error which suggests to run again with the –allow-write
+flag. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is
+actually a key feature of Deno. Deno is secure by default. This means that when
+we run a script with Deno, that script does not by default have all possible
+permissions. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>For example,
+something like reading or writing files, or sending network requests. These are
+operations that are always unlocked and possible with Node. Any Node script can
+do anything. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When you
+execute a JavaScript file with Node, that file is able to do everything. It
+could delete all files on your system and nothing will stop it from doing that.
+Therefore, </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>when you
+execute code with node, you have trust that code because code could potentially
+do a lot of bad things. Deno by default, is not allowed to do everything. By default,
+when you execute</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>code with
+Deno, that code may not write to files, read files, send or get HTTP requests.
+That is the reason when we tried to write a file it is denied by default, as
+part of Deno</span><span style='color:black'>'</span><span style='font-size:
+14.0pt;line-height:107%'>s security model. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we want
+to write a file, we have to set the appropriate permissions. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1162 height=743 id="Picture 10"
+src="index_files/image009.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 9</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>What we
+should do is to add extra flags to this execution which is in this case is
+–allow-write flag. Deno will allow file.ts to write to files.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is
+important to understand how Deno code and features are being organized.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1228 height=417 id="Picture 11"
+src="index_files/image010.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 10</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We already talked
+about those core APIs, the so-called Namespace APIs which are built into Deno.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1498 height=674 id="Picture 12"
+src="index_files/image011.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 11</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We also got
+the Standard Library, which is a set of modules that you have to import in your
+files in order to use them.  These modules do not have external</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>dependencies
+and they are reviewed by the Deno core team. The intention is to have a
+standard set of high-quality code that all Deno projects can use</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>without a
+problem.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1174 height=520 id="Picture 13"
+src="index_files/image012.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 12</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Third party
+modules are maintained by different community teams, not by the official Deno
+team, and therefore their stability differs. Some libraries are very new, some</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>libraries
+are heavily maintained and might be quite stable.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1285 height=806 id="Picture 14"
+src="index_files/image013.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 13</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+get started with <i>http</i> Standard Library.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1212 height=556 id="Picture 15"
+src="index_files/image014.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 14</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This library
+will help us spinning up a web server. You see one important difference to Node
+right away. That is the import syntax; from</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>where we are
+importing which is a URL. Deno wants you to use such imports. The idea with
+Deno is not that you download everything</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>you are
+going to use in your project and store it locally, but then instead, you can
+import form any JavaScript or TypeScript file on any server</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and start
+using those exported features in your files. This is a core philosophy of Deno
+and that is of course quite different to Node.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1154 height=407 id="Picture 16"
+src="index_files/image015.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 15</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We created
+app.ts file and added the import line. We do not download or <i>npm install </i>this.
+It just sits on another server and this is how we import it.</span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>Serve </span></i><span
+style='font-size:14.0pt;line-height:107%'>is a function that allows us to spin
+up a HTTP server. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1182 height=599 id="Picture 17"
+src="index_files/image016.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 16</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If we run <i>deno
+run app.ts, </i>it compiles and downloads a bunch of things. That happens
+because of the <i>import</i>. Whenever you import from URL like this</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and execute
+the code deno goes ahead and reaches out to that server and downloads that file,
+also all the dependencies of that file; all other files</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>which are
+imported by that file. It downloads those files to your local machine and
+caches them locally. When you run the script thereafter it does not have to</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>re-download
+them.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=755 height=97 id="Picture 18"
+src="index_files/image017.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 17</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If I run <i>deno
+run app.ts</i> one more time nothing will be downloaded as those dependencies
+are already on my machine.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1089 height=336 id="Picture 19"
+src="index_files/image018.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 18</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If you want
+to reload then you have to run with <i>–reload</i> flag.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1273 height=668 id="Picture 21"
+src="index_files/image019.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 19</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We call <i>serve()
+</i>and get another permission error. It requires –allow-net flag.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1118 height=404 id="Picture 22"
+src="index_files/image020.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 20</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Executing it
+with <i>–allow-net flag</i> will make it successful.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>What
+happened if a package gets updated? What if I need a specific version? In our
+sample we imported </span><a href="https://deno.land/std@0.121.0/http/server.ts"
+target="_blank"><i><span style='font-size:14.0pt;line-height:107%'>https://deno.land/std@0.121.0/http/server.ts</span></i></a><i><span
+style='font-size:14.0pt;line-height:107%'> </span></i><span style='font-size:
+14.0pt;line-height:107%'>module.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1313 height=688 id="Picture 23"
+src="index_files/image021.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 21</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>0.121.0 is
+the version number.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1284 height=742 id="Picture 24"
+src="index_files/image022.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 22</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We may skip
+the version number in the import line and in that case Deno will download the
+latest version. In this case it is 0.122.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1274 height=458 id="Picture 25"
+src="index_files/image023.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 23</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Indeed, the
+latest version is 0.122.0</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In Deno
+there is no concept of a package manager as external modules are imported
+directly into local modules. This raises the question</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>of how to
+manage remote dependencies without a package manager. In big projects with many
+dependencies, it will become very hard</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>and time
+consuming to update modules if they are all imported individually into
+individual modules. The standard practice for solving</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>this problem
+in Deno is to create deps.ts by convention. With all dependencies centralized
+in deps.ts, managing this becomes easier.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1125 height=475 id="Picture 26"
+src="index_files/image024.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 24</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I created
+deps.ts file and exported our module.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1004 height=664 id="Picture 27"
+src="index_files/image025.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 25</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In app.ts
+file I import the module from deps.ts and running the app. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1139 height=753 id="Picture 28"
+src="index_files/image026.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 26</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our forum</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s Deno
+project we exported lots of modules.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1203 height=537 id="Picture 29"
+src="index_files/image027.png"><span style='font-size:14.0pt;line-height:107%'> </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 27</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In a code,
+we simply import modules from deps.ts file. All our modules are centralized in
+deps.ts file.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+say your module depends on remote module </span><a href="https://some.url/a.ts"><i><span
+style='font-size:14.0pt;line-height:107%'>https://some.url/a.ts</span></i></a><span
+style='font-size:14.0pt;line-height:107%'>. When you compile your module for
+the first-time <i>a.ts</i> is retrieved.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It will
+remain this way until you run your module on a new machine (day in production)
+or reloaded the cache </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>(through
+deno cache –reload for example). But what happened if the content in the remote
+url </span><a href="https://some.url/a.ts"><i><span style='font-size:14.0pt;
+line-height:107%'>https://some.url/a.ts</span></i></a><i><span
+style='font-size:14.0pt;line-height:107%'> </span></i><span style='font-size:
+14.0pt;line-height:107%'>is changed? This could</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>lead to your
+production module running with different dependency code that your local
+module. Deno</span><span style='color:black'>'</span><span style='font-size:
+14.0pt;line-height:107%'>s solution to avoid this is to use</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>integrity
+checking and lock files.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1333 height=604 id="Picture 30"
+src="index_files/image028.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 28</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>--lock=lock.json
+tells Deno what the lock file to use is, while the –lock-write is used to
+output dependency hashes to the lock file. A lock.json is storing</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>a hash of
+the file against the dependency.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1288 height=661 id="Picture 31"
+src="index_files/image029.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 29</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Collaborator
+on another machine will download the project</span><span style='color:black'>'</span><span
+style='font-size:14.0pt;line-height:107%'>s dependencies into the machine</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+cache by checking the integrity of each resource.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Deno ships
+with a built-in code formatter that will auto-format .js, .ts, .jsx, .tsx, .md,
+.markdown, .json, jsonc files. In order to format all </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>supported
+files in the current directory and subdirectories run <i>deno fmt</i>. To
+format a specific files tun <i>deno fmt myfile1.ts myfile2.ts </i>and</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>format all
+supported files in specific directory and subdirectories run <i>deno fmt src/</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=886 height=792 id="Picture 32"
+src="index_files/image030.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 30</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Our initial app.ts
+file looks like this. Let</span><span style='color:black'>'</span><span
+style='font-size:14.0pt;line-height:107%'>s format it by running <i>deno fmt
+app.ts</i></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=886 height=613 id="Picture 33"
+src="index_files/image031.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 31</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After
+running the command, the code is being formatted.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When Deno
+was initially launches, the creator stated that one of its objectives was to be
+able to ship Deno code as a single binary,</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>something
+similar to what golang does. What happens when you compile Deno code to a
+binary is that all the runtime and code</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>is included
+in that binary, making it self -sustanable. Once you have compiled it, you can
+just send this binary anywhere, and you will</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>be able to
+execute it.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1282 height=651 id="Picture 35"
+src="index_files/image032.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 32</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We created
+current_time.js file which logs current time.We run <i>deno compile –unstable
+current_time.js</i></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1023 height=527 id="Picture 36"
+src="index_files/image033.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 33</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Current_time.exe
+is generated and executing it we can see current local time.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1330 height=581 id="Picture 37"
+src="index_files/image034.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 34</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When
+creating a Deno project filenames should use underscores not dashes according
+to Deno style guide.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our
+forums Deno app we use DenoDB </span><a
+href="https://eveningkid.com/denodb-docs/" target="_blank"><span
+style='font-size:14.0pt;line-height:107%'>https://eveningkid.com/denodb-docs/</span></a><span
+style='font-size:14.0pt;line-height:107%'> which is MySQL, SQLite, PostgreSQL
+and MongoDB ORM for Deno. Our forums app uses MySQL.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It allows to
+create tables, query tables, write data to our tables and set up table
+relationships all from our code with a very easy to use api.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1243 height=647 id="Picture 38"
+src="index_files/image035.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 35</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our forum</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+deps.ts file we export denodb.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1270 height=729 id="Picture 39"
+src="index_files/image036.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 36</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In forum</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s <i>database.ts</i>
+file we connect to MySQLvia DenoDB. Properties are coming from environment. We
+will talk about env properties later.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1044 height=758 id="Picture 40"
+src="index_files/image037.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 37</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We create
+DenoDB models and relationships between tables. We use <i>one to many</i> and <i>many
+to many</i> relationships.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1218 height=628 id="Picture 45"
+src="index_files/image038.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 38</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We specify
+relationships, link tables and create an admin user. <i>Note, that the password
+will be changed when I host the app in order not to delete forums as admin user</i></span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>can
+delete all forums.</span></i></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><img border=0 width=1222 height=714 id="Picture 42"
+src="index_files/image039.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 39</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The right
+place to specify default values is inside the model but it simply does not work.
+It does not create a user.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1257 height=796 id="Picture 43"
+src="index_files/image040.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 40</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Here are all
+tables generated based on DenoDB models. <i>post_user</i> table has
+many-to-many relations. Also, our admin user was created after generating
+tables, relations etc.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>DenoDB
+supports various <i>joins</i> that we used in our app.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1294 height=703 id="Picture 46"
+src="index_files/image041.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 41</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If you have
+been involved in Node development you should be familiar with <i>nodemon</i>.
+With nodemon your process will automatically restart when your code changes.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1316 height=460 id="Picture 47"
+src="index_files/image042.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 42</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>For
+configuration options we usually put nodemon.json in the current working
+directory and specify some options in the file.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We need
+something like that for Deno and it Is Denon <a
+href="https://deno.land/x/denon@2.4.10" target="_blank">https://deno.land/x/denon@2.4.10</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1404 height=738 id="Picture 48"
+src="index_files/image043.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 43</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Denon is the
+deno replacement for nodemon providing a feature packed, highly configurable
+and easy to use experience. Denon does not</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>require any
+additional changes to your code or method of development. Denon is a wrapper
+for Deno. To use Denon, replace the word Deno</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>on the
+command line when executing your script.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1307 height=643 id="Picture 49"
+src="index_files/image044.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 44</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>First, we
+have to install Denon</span></p>
+
+<p class=MsoNormal><img border=0 width=1327 height=733 id="Picture 50"
+src="index_files/image045.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 45</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If I try to
+install Denon I will get an error. It is very common to get errors as Deno is
+in its active development and everything is changing rapidly. First, we have to
+use Deno version</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>of this app
+being created. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1020 height=125 id="Picture 51"
+src="index_files/image046.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 46</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You have to
+downgrade it by running <i>deno upgrade –version 1.16.3 </i>as the latest
+version of Deno has higher version.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1094 height=194 id="Picture 52"
+src="index_files/image047.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 47</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You will
+still get Denon error even with this version.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>What you
+have to do is to run forked version of Denon that works with 1.16.3 version.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=859 height=145 id="Picture 53"
+src="index_files/image048.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 48</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>deno install
+-qAf --unstable <a
+href="https://raw.githubusercontent.com/denosaurs/denon/main/denon.ts"
+target="_blank">https://raw.githubusercontent.com/denosaurs/denon/main/denon.ts</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Once you run
+it you should not get an error.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1308 height=643 id="Picture 54"
+src="index_files/image049.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 49</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We specify
+scripts.json file, where we run Deno and specify env options we use in our app.
+Note, that this is only for local development and we will discuss how </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>to specify
+them security on Heroku hosting once we reach there.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1350 height=803 id="Picture 55"
+src="index_files/image050.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 50</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>To start the
+app just run <i>denon start</i> command. Do some modification in the code and
+you will see that the process will automatically will be restarted.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Our forum
+app uses MySQL and we need some GUI to look into database tables, data and
+overall process. For that reason, we will download </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>MYSQL
+workbench </span><a href="https://www.mysql.com/products/workbench/"
+target="_blank"><span style='font-size:14.0pt;line-height:107%'>https://www.mysql.com/products/workbench/</span></a><span
+style='font-size:14.0pt;line-height:107%'> which is a unified tool for database
+architectures, developers, and DBAs.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1208 height=695 id="Picture 56"
+src="index_files/image051.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 51</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I installed
+MySQL and the workbench and connected both locally and remotely.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1175 height=723 id="Picture 57"
+src="index_files/image052.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 52</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I connect to
+local database.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1066 height=655 id="Picture 58"
+src="index_files/image053.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 53</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After the
+successful connection I created <i>forums</i> schema which is actually the database.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is time
+to discuss how to host Deno app on Heroko hosting and how to use MySQL there.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1370 height=482 id="Picture 59"
+src="index_files/image054.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 54</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Navigate to</span><a
+href="https://www.heroku.com/" target="_blank"><span style='font-size:14.0pt;
+line-height:107%'> https://www.heroku.com/</span></a><span style='font-size:
+14.0pt;line-height:107%'> register and read how to create app.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1425 height=750 id="Picture 60"
+src="index_files/image055.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 55</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I created <i>denoforums</i>
+app. Under <i>Deploy</i> tab you can read how to install Heroku CLI and deploy
+your code to Heroku.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1383 height=752 id="Picture 61"
+src="index_files/image056.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 56</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>If you click
+Settings tab, you will <i>Add buildpack</i> button. Heroku Buildpacks are set
+of open-source scripts that are used for compiling apps on Heroku. </span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1384 height=629 id="Picture 62"
+src="index_files/image057.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 57</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When you
+click on Add buildpack you will see that there no officially supported
+buildpack for Deno.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1222 height=861 id="Picture 63"
+src="index_files/image058.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 58</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The buildpack
+we should use is located in </span><a
+href="https://github.com/chibat/heroku-buildpack-deno" target="_blank"><span
+style='font-size:14.0pt;line-height:107%'>https://github.com/chibat/heroku-buildpack-deno</span></a><span
+style='font-size:14.0pt;line-height:107%'>. <i>In readtime.txt </i>you specify
+your Deno version which is very important for apps in this fast-changing
+environment.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1385 height=622 id="Picture 64"
+src="index_files/image059.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 59</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I inserted
+Deno buildpack path and clicked on <i>Save changes</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1398 height=614 id="Picture 65"
+src="index_files/image060.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 60</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You can see
+the path added. You have to make sure that this webpack is the only one and if
+you see another buildpack with our Deno buildpack, just delete them all.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Make sure that
+only our webpack is there.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1105 height=646 id="Picture 66"
+src="index_files/image061.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 61</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our
+project we specify runtime.txt file and specify our downgraded Deno version.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1365 height=587 id="Picture 67"
+src="index_files/image062.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 62</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We also have
+to create Procfile and specify our Deno command, plus appending server <i>–port</i>
+option that Heroku will pick it up automatically.</span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>Procfile </span></i><span
+style='font-size:14.0pt;line-height:107%'>specifies the commands that are
+executed by the app on startup.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1387 height=504 id="Picture 68"
+src="index_files/image063.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 63</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In app.ts
+file we specify DEFAULT_PORT which comes from scripts.json file when we run it
+locally. Deno.env.get(</span><span style='color:black'>'</span><span
+style='font-size:14.0pt;line-height:107%'>PORT</span><span style='color:black'>'</span><span
+style='font-size:14.0pt;line-height:107%'>) is the port number on Heroku.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We should also
+specify our remaining env properties on Heroku but let</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+find out how to run MySQL on Heroku first then get busy with env properties.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1514 height=774 id="Picture 69"
+src="index_files/image064.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 64</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Go to </span><a
+href="https://devcenter.heroku.com/articles/cleardb" target="_blank"><span
+style='font-size:14.0pt;line-height:107%'>https://devcenter.heroku.com/articles/cleardb</span></a></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>ClearDB is a
+powerful, high-speed database-as-a-service in the cloud for your MySQL powered
+applications. We will use it.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1470 height=690 id="Picture 70"
+src="index_files/image065.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 65</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Navigate to </span><a
+href="https://elements.heroku.com/" target="_blank"><span style='font-size:
+14.0pt;line-height:107%'>https://elements.heroku.com/</span></a><span
+style='font-size:14.0pt;line-height:107%'> and select ClearDB MySQL option.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1471 height=610 id="Picture 71"
+src="index_files/image066.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 66</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Click on
+Install ClearDB MySQL. It will ask you for a plan and choose a free one.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1507 height=685 id="Picture 72"
+src="index_files/image067.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 67</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>After the
+successful installation you will see ClearDB MySQL under <i>Resources</i> tab.
+By the way, you will also see the path we specified in <i>Procfile</i> (Figure
+62) after deploying our app which we have not done yet.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1334 height=715 id="Picture 73"
+src="index_files/image068.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 68</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Select <i>Settings</i>
+tab and click on <i>Reveal Config Vars </i>button.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1427 height=548 id="Picture 74"
+src="index_files/image069.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 69</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>This is our
+database URL.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1033 height=214 id="Picture 75"
+src="index_files/image070.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 70</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>URL is
+composed of different parts; <i>database username</i>, <i>password</i>, <i>host</i>
+and <i>database name</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1466 height=629 id="Picture 78"
+src="index_files/image071.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 71</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Run MySQL
+Workbench click on + sign then input all required parameters. Specify <i>Connection
+Name</i> as forums. You can specify any name you want. Click on <i>Test
+Connection</i> button to test it.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1046 height=802 id="Picture 77"
+src="index_files/image072.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 72</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Here are my
+connection options.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1268 height=508 id="Picture 81"
+src="index_files/image073.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 73</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Now, we have
+to add our configuration options.  We should not add SERVER_PORT option as it
+will be picked by Heroku (Figure 63). ENV is changed from <i>dev</i> to <i>Production</i>.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Heroku will
+take all env options from these config vars.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1149 height=429 id="Picture 82"
+src="index_files/image074.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 74</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In our
+project we have a helper env function that reads from env.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1220 height=732 id="Picture 83"
+src="index_files/image075.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 75</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>When we run
+it locally it reads env properties form <i>scripts.json</i> file. On Heroku, it
+will read from config vars (Figure 73).</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1094 height=608 id="Picture 86"
+src="index_files/image076.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 76</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Locally, we
+specified env as <i>dev</i>. We get detail info for 500 <i>Internal Server Error</i>.
+In production, we do not reveal errors.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1129 height=760 id="Picture 87"
+src="index_files/image077.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 77</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Deploying
+app to Heroku. Note, Deno version is 1.16.3 specified in runtime.txt file
+(Figure 63).</span> </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=1281 height=323 id="Picture 88"
+src="index_files/image078.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 78</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is time
+to open the app to see if it works or not.</span> </p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><img border=0 width=1244 height=651 id="Picture 89"
+src="index_files/image079.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 79</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is fine
+as we have to go to one of our publicly available rest endpoints for testing.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1007 height=150 id="Picture 91"
+src="index_files/image080.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 80</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It works! We
+do not have a forum in our database so an empty array is returned.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We hosted
+Deno app (backend) on Heroku which look fine. It is time to host frontend app
+which should talk to Deno via rest calls.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1239 height=824 id="Picture 92"
+src="index_files/image081.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 81</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The frontend
+is built with React Hooks. We need to change BASEURL which should point to our
+Deno app hosted. We will host React Hooks app on Firebase.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'><a
+href="https://firebase.google.com/docs/hosting/quickstart" target="_blank">https://firebase.google.com/docs/hosting/quickstart</a></span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1331 height=700 id="Picture 93"
+src="index_files/image082.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 82</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You can read
+how to host on Firebase.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1279 height=315 id="Picture 96"
+src="index_files/image083.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 83</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>The app is
+deployed to Firebase.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1310 height=291 id="Picture 98"
+src="index_files/image084.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 84</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We do not
+have any forums to view it. We should either register or login to create them.
+You may recall that when deploying Deno app we registered admin user (Figure
+40).</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>So, we can
+login with that user.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1364 height=662 id="Picture 99"
+src="index_files/image085.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 85</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We logged in
+as an admin user.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1234 height=262 id="Picture 100"
+src="index_files/image086.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 86</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Logged on as
+</span><a href="mailto:admin@gmail.com"><span style='font-size:14.0pt;
+line-height:107%'>admin@gmail.com</span></a></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1256 height=662 id="Picture 101"
+src="index_files/image087.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 87</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Admin user
+is creating a new forum.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1256 height=273 id="Picture 102"
+src="index_files/image088.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 88</span></p>
+
+<p class=MsoNormal><i><span style='font-size:14.0pt;line-height:107%'>Node JS </span></i><span
+style='font-size:14.0pt;line-height:107%'>forum has been created.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1377 height=524 id="Picture 103"
+src="index_files/image089.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 89</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You see that
+we have a new record in forum database table. It is our newly created forum.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1099 height=331 id="Picture 104"
+src="index_files/image090.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 90</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Inserted
+forum info can also be retrieved by navigating to forums</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>
+rest endpoint.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1351 height=640 id="Picture 106"
+src="index_files/image091.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 91</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Admin user
+is creating a new topic.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=984 height=661 id="Picture 107"
+src="index_files/image092.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 92</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>First topic
+is created.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1102 height=647 id="Picture 108"
+src="index_files/image093.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 93</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Other forum
+members can reply to this topic.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Let</span><span
+style='color:black'>'</span><span style='font-size:14.0pt;line-height:107%'>s
+register another user by clicking on <i>Register</i> link (Figure 84).</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1286 height=732 id="Picture 109"
+src="index_files/image094.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 94</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Registering </span><a
+href="mailto:ashot@gmail.com"><span style='font-size:14.0pt;line-height:107%'>ashot@gmail.com</span></a><span
+style='font-size:14.0pt;line-height:107%'> user.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1062 height=665 id="Picture 110"
+src="index_files/image095.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 95</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>We can see
+that the user has been registered successfully. Note, that each user has its
+role. In our application only </span><a href="mailto:admin@gmail.com"><span
+style='font-size:14.0pt;line-height:107%'>admin@gmail.com</span></a><span
+style='font-size:14.0pt;line-height:107%'> has <i>Admin</i> role, other users</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>will be
+granted <i>User</i> role.  Only Admin can create, update and delete forums.
+Admin can edit and delete other users</span><span style='color:black'>'</span><span
+style='font-size:14.0pt;line-height:107%'> topics and posts.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1042 height=373 id="Picture 112"
+src="index_files/image096.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 96</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>I logged on
+as </span><a href="mailto:ashot@gmail.com"><span style='font-size:14.0pt;
+line-height:107%'>ashot@gmail.com</span></a><span style='font-size:14.0pt;
+line-height:107%'> who has <i>User</i> role, and will try to create a forum.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1184 height=582 id="Picture 113"
+src="index_files/image097.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 97</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Creating a
+forum.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1250 height=264 id="Picture 115"
+src="index_files/image098.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 98</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>It is
+forbidden.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1205 height=287 id="Picture 117"
+src="index_files/image099.png"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 99</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>You can view
+only forums, topics and posts pages without being logged on. You see that when
+we try to create a new forum without being logged on, we are getting an error
+alert.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><img border=0 width=1454 height=664 id="Picture 118"
+src="index_files/image100.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>Figure 100</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>In Deno app,
+in JWTAuthMiddleware we put logged on user info into the state if
+authenticated. For some action a user should also be authorized (e.g. only
+admin can create a forum). We check it in <i>userGurd</i> code.</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:107%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
