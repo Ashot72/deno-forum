@@ -28,7 +28,7 @@ const link = async (db: Database) => {
     try {
       await db.sync();
     }catch(err) {
-       console.log("User Error!:", err.message)
+       // console.log("User Error!:", err.message)
     }
   }
 };
