@@ -39,16 +39,16 @@ Install [MySQL Database](https://www.mysql.com)
        
        # Deno App (backend)
          cd deno-forum/backend
-         denon start (starts Deno app)
-         
-         starts on http://localhost:8080
+         denon start (starts Deno app - localhost:8080)
+  
+      
 
        # React Hook App (frontend)
         cd deno-forum/frontend
         npm install (install dependencies)
-        npm start (starts React Hook app)
+        npm start (starts React Hooks app - localhost:3000)
         
-        starts on http://localhost:3000
+        
 ```
 
 Go to [Deno Forum Video](https://youtu.be/YPhfLHlShHs) page
