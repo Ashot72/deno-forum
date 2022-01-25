@@ -1,7 +1,7 @@
 import type { ValidationErrors, ValidationRules } from "../deps.ts";
 import { compose, Context, httpErrors, validate } from "../deps.ts";
 
-const getErrorMessage = (errors: ValidationErrors): string | undefined => {
+const getErrorMessage = (errors: ValidationErrors): string => {
   const errMessages = [];
   for (const attr in errors) {
     const attrErrors = errors[attr];

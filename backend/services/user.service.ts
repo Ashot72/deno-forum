@@ -25,8 +25,7 @@ export const loginUser = async (
   throw new httpErrors.Unauthorized("Wrong credential");
 };
 
-export const registerUser = async (loginUser: IUser): Promise<User> => {
- // try {
+export const registerUser = async (loginUser: IUser): Promise<User> => { 
     const { password, role } = loginUser;
     loginUser.password = await encrypt(password);
     loginUser.role = role || UserRole.USER;
@@ -39,7 +38,4 @@ export const registerUser = async (loginUser: IUser): Promise<User> => {
     } else {
       return await userRepo.createUser(loginUser);
     }
-  //} catch (err) {
- //     console.log("User Error:", err.message)
-  // }
 };

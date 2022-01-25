@@ -37,10 +37,6 @@ class Post extends Model {
     return this.hasMany(Post);
   }
 
-  // static users() {
-  //     return this.hasMany(User)
-  //  }
-
   static users() {
     return this.hasMany(Post);
   }
