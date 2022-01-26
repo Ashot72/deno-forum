@@ -35,7 +35,7 @@ export type IUser = {
   role: string;
 };
 
-export type IType = {
+export type ILike = {
   id: number;
   postId: number;
   userId: number;

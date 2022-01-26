@@ -1,11 +1,11 @@
 import { Model } from "../deps.ts";
 import { Like } from "../db/linkDb.ts";
-import type { IType } from "../types/types.ts";
+import type { ILike } from "../types/types.ts";
 
 export const getUserLikes = async (userId: number): Promise<Model[]> =>
   await Like.where("userId", userId).all();
 
-export const create = async ({ userId, postId }: IType) => {
+export const create = async ({ userId, postId }: ILike) => {
   const record: number = await Like.where({ userId: userId, postId: postId })
     .count();
   record
